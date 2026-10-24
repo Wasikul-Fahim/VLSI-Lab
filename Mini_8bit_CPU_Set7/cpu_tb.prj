@@ -1,0 +1,7 @@
+verilog work "program_rom.v"
+verilog work "program_counter.v"
+verilog work "control_unit.v"
+verilog work "alu.v"
+verilog work "accumulator.v"
+verilog work "cpu_top.v"
+verilog work "cpu_tb.v"
