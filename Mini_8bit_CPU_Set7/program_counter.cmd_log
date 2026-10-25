@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "/home/ise/22201037/Mini_8bit_CPU_Set7/program_counter.xst" -ofn "/home/ise/22201037/Mini_8bit_CPU_Set7/program_counter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-2 program_counter.ngc program_counter.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o program_counter_map.ncd program_counter.ngd program_counter.pcf 

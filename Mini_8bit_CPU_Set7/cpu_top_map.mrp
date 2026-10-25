@@ -3,14 +3,14 @@ Xilinx Mapping Report File for Design 'cpu_top'
 
 Design Information
 ------------------
-Command Line   : map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol
-high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off
--power off -o cpu_top_map.ncd cpu_top.ngd cpu_top.pcf 
-Target Device  : xa7a100t
-Target Package : csg324
-Target Speed   : -2i
-Mapper Version : aartix7 -- $Revision: 1.55 $
-Mapped Date    : Sat Oct 24 09:35:43 2026
+Command Line   : map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol
+high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off
+-pr off -lc off -power off -o cpu_top_map.ncd cpu_top.ngd cpu_top.pcf 
+Target Device  : xc6slx9
+Target Package : tqg144
+Target Speed   : -2
+Mapper Version : spartan6 -- $Revision: 1.55 $
+Mapped Date    : Sun Oct 25 09:01:20 2026
 
 Design Summary
 --------------
@@ -20,7 +20,7 @@ Number of warnings :   0
 Section 1 - Errors
 ------------------
 ERROR:Security:9c - No 'ISE' nor 'WebPack' feature version 2013.10 was available
-for part 'xa7a100t'.
+for part 'xc6slx9'.
 ERROR:Map:258 - A problem was encountered attempting to get the license for this
    architecture. 
 
@@ -29,7 +29,7 @@ Section 2 - Warnings
 
 Section 3 - Informational
 -------------------------
-INFO:Security:54 - 'xa7a100t' is a WebPack part.
+INFO:Security:54 - 'xc6slx9' is a WebPack part.
 INFO:Security:7 - A feature for ISE was found but is for the wrong hostid.
 INFO:Security:61 - The XILINXD_LICENSE_FILE environment variable is not set.
 INFO:Security:63 - The LM_LICENSE_FILE environment variable is not set.
