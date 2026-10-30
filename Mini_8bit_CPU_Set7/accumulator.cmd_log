@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "/home/ise/VLSI-Lab/Mini_8bit_CPU_Set7/accumulator.xst" -ofn "/home/ise/VLSI-Lab/Mini_8bit_CPU_Set7/accumulator.syr" 
+xst -intstyle ise -ifn "/home/ise/VLSI-Lab/Mini_8bit_CPU_Set7/accumulator.xst" -ofn "/home/ise/VLSI-Lab/Mini_8bit_CPU_Set7/accumulator.syr" 

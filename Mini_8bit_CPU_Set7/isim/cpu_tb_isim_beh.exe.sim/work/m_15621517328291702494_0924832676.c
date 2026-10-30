@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "/home/ise/22201037/Mini_8bit_CPU_Set7/cpu_top.v";
+static const char *ng0 = "/home/ise/VLSI-Lab/Mini_8bit_CPU_Set7/cpu_top.v";
 
 
 

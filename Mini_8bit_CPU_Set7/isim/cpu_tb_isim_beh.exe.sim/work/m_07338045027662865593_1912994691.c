@@ -22,7 +22,7 @@
 #define alloca _alloca
 #endif
 static const char *ng0 = "Time=%0t RESET=%b PC=%h Q=%h Z=%b";
-static const char *ng1 = "/home/ise/22201037/Mini_8bit_CPU_Set7/cpu_tb.v";
+static const char *ng1 = "/home/ise/VLSI-Lab/Mini_8bit_CPU_Set7/cpu_tb.v";
 static unsigned int ng2[] = {0U, 0U};
 static unsigned int ng3[] = {1U, 0U};
 static const char *ng4 = "Simulation completed.";

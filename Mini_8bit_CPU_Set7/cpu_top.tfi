@@ -1,0 +1,13 @@
+
+
+
+// Instantiate the module
+cpu_top instance_name (
+    .CLK(CLK), 
+    .RESET(RESET), 
+    .Q(Q), 
+    .Z(Z), 
+    .PC(PC)
+    );
+
+

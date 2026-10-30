@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2026-10-24T09:38:26</DateModified>
+  <DateModified>2026-10-29T01:07:43</DateModified>
   <ModuleName>cpu_top</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>/home/ise/22201037/Mini_8bit_CPU_Set7/iseconfig/cpu_top.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>/home/ise/22201037/Mini_8bit_CPU_Set7</ImplementationReportsDirectory>
+  <SavedFilePath>/home/ise/VLSI-Lab/Mini_8bit_CPU_Set7/iseconfig/cpu_top.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>/home/ise/VLSI-Lab/Mini_8bit_CPU_Set7/</ImplementationReportsDirectory>
   <DateInitialized>2026-10-24T09:38:25</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

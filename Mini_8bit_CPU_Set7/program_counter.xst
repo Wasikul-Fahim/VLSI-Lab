@@ -4,7 +4,7 @@ run
 -ifn program_counter.prj
 -ofn program_counter
 -ofmt NGC
--p xc6slx9-2-tqg144
+-p xc6slx16-2-csg324
 -top program_counter
 -opt_mode Speed
 -opt_level 1

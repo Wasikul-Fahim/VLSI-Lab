@@ -10,7 +10,7 @@ module program_counter(
         if (RESET)
             PC <= 4'd0;
         else
-            PC <= PC + 1'b1;
+				PC <= PC + 1'b1;
     end
 
 endmodule

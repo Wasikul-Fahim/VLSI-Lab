@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ise/VLSI-Lab/Mini_8bit_CPU_Set7/program_rom.xst" -ofn "/home/ise/VLSI-Lab/Mini_8bit_CPU_Set7/program_rom.syr" 

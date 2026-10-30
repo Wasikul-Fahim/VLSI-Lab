@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ise/VLSI-Lab/Mini_8bit_CPU_Set7/alu.xst" -ofn "/home/ise/VLSI-Lab/Mini_8bit_CPU_Set7/alu.syr" 

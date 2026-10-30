@@ -1,0 +1,11 @@
+
+
+
+// Instantiate the module
+program_counter instance_name (
+    .CLK(CLK), 
+    .RESET(RESET), 
+    .PC(PC)
+    );
+
+

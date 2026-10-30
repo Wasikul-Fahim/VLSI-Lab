@@ -4,7 +4,7 @@ run
 -ifn cpu_top.prj
 -ofn cpu_top
 -ofmt NGC
--p xc6slx9-2-tqg144
+-p xc6slx16-2-csg324
 -top cpu_top
 -opt_mode Speed
 -opt_level 1

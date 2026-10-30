@@ -5,14 +5,14 @@ Parameter TMPDIR set to xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.01 secs
+Total CPU time to Xst completion: 0.00 secs
  
 --> 
 Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.01 secs
+Total CPU time to Xst completion: 0.00 secs
  
 --> 
 Reading design: cpu_top.prj
@@ -49,7 +49,7 @@ Ignore Synthesis Constraint File   : NO
 ---- Target Parameters
 Output File Name                   : "cpu_top"
 Output Format                      : NGC
-Target Device                      : xc6slx9-2-tqg144
+Target Device                      : xc6slx16-2-csg324
 
 ---- Source Options
 Top Module Name                    : cpu_top
@@ -108,17 +108,17 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "/home/ise/22201037/Mini_8bit_CPU_Set7/program_rom.v" into library work
+Analyzing Verilog file "/home/ise/VLSI-Lab/Mini_8bit_CPU_Set7/program_rom.v" into library work
 Parsing module <program_rom>.
-Analyzing Verilog file "/home/ise/22201037/Mini_8bit_CPU_Set7/program_counter.v" into library work
+Analyzing Verilog file "/home/ise/VLSI-Lab/Mini_8bit_CPU_Set7/program_counter.v" into library work
 Parsing module <program_counter>.
-Analyzing Verilog file "/home/ise/22201037/Mini_8bit_CPU_Set7/control_unit.v" into library work
+Analyzing Verilog file "/home/ise/VLSI-Lab/Mini_8bit_CPU_Set7/control_unit.v" into library work
 Parsing module <control_unit>.
-Analyzing Verilog file "/home/ise/22201037/Mini_8bit_CPU_Set7/alu.v" into library work
+Analyzing Verilog file "/home/ise/VLSI-Lab/Mini_8bit_CPU_Set7/alu.v" into library work
 Parsing module <alu>.
-Analyzing Verilog file "/home/ise/22201037/Mini_8bit_CPU_Set7/accumulator.v" into library work
+Analyzing Verilog file "/home/ise/VLSI-Lab/Mini_8bit_CPU_Set7/accumulator.v" into library work
 Parsing module <accumulator>.
-Analyzing Verilog file "/home/ise/22201037/Mini_8bit_CPU_Set7/cpu_top.v" into library work
+Analyzing Verilog file "/home/ise/VLSI-Lab/Mini_8bit_CPU_Set7/cpu_top.v" into library work
 Parsing module <cpu_top>.
 
 =========================================================================
@@ -142,13 +142,13 @@ Elaborating module <accumulator>.
 =========================================================================
 
 Synthesizing Unit <cpu_top>.
-    Related source file is "/home/ise/22201037/Mini_8bit_CPU_Set7/cpu_top.v".
+    Related source file is "/home/ise/VLSI-Lab/Mini_8bit_CPU_Set7/cpu_top.v".
     Summary:
 	no macro.
 Unit <cpu_top> synthesized.
 
 Synthesizing Unit <program_counter>.
-    Related source file is "/home/ise/22201037/Mini_8bit_CPU_Set7/program_counter.v".
+    Related source file is "/home/ise/VLSI-Lab/Mini_8bit_CPU_Set7/program_counter.v".
     Found 4-bit register for signal <PC>.
     Found 4-bit adder for signal <PC[3]_GND_2_o_add_1_OUT> created at line 13.
     Summary:
@@ -157,19 +157,19 @@ Synthesizing Unit <program_counter>.
 Unit <program_counter> synthesized.
 
 Synthesizing Unit <program_rom>.
-    Related source file is "/home/ise/22201037/Mini_8bit_CPU_Set7/program_rom.v".
+    Related source file is "/home/ise/VLSI-Lab/Mini_8bit_CPU_Set7/program_rom.v".
     Summary:
 	inferred   1 Multiplexer(s).
 Unit <program_rom> synthesized.
 
 Synthesizing Unit <control_unit>.
-    Related source file is "/home/ise/22201037/Mini_8bit_CPU_Set7/control_unit.v".
+    Related source file is "/home/ise/VLSI-Lab/Mini_8bit_CPU_Set7/control_unit.v".
     Summary:
 	no macro.
 Unit <control_unit> synthesized.
 
 Synthesizing Unit <alu>.
-    Related source file is "/home/ise/22201037/Mini_8bit_CPU_Set7/alu.v".
+    Related source file is "/home/ise/VLSI-Lab/Mini_8bit_CPU_Set7/alu.v".
     Found 8-bit adder for signal <ACC[7]_operand[7]_add_0_OUT> created at line 31.
     Found 8-bit 7-to-1 multiplexer for signal <result> created at line 29.
     Summary:
@@ -178,7 +178,7 @@ Synthesizing Unit <alu>.
 Unit <alu> synthesized.
 
 Synthesizing Unit <accumulator>.
-    Related source file is "/home/ise/22201037/Mini_8bit_CPU_Set7/accumulator.v".
+    Related source file is "/home/ise/VLSI-Lab/Mini_8bit_CPU_Set7/accumulator.v".
     Found 1-bit register for signal <Z>.
     Found 8-bit register for signal <ACC>.
     Summary:
@@ -306,13 +306,13 @@ Primitive and Black Box Usage:
 Device utilization summary:
 ---------------------------
 
-Selected Device : 6slx9tqg144-2 
+Selected Device : 6slx16csg324-2 
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:              18  out of  11440     0%  
- Number of Slice LUTs:                   32  out of   5720     0%  
-    Number used as Logic:                32  out of   5720     0%  
+ Number of Slice Registers:              18  out of  18224     0%  
+ Number of Slice LUTs:                   32  out of   9112     0%  
+    Number used as Logic:                32  out of   9112     0%  
 
 Slice Logic Distribution: 
  Number of LUT Flip Flop pairs used:     39
@@ -323,7 +323,7 @@ Slice Logic Distribution:
 
 IO Utilization: 
  Number of IOs:                          15
- Number of bonded IOBs:                  15  out of    102    14%  
+ Number of bonded IOBs:                  15  out of    232     6%  
 
 Specific Feature Utilization:
  Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
@@ -451,12 +451,12 @@ CLK            |    4.905|         |         |         |
 
 
 Total REAL time to Xst completion: 5.00 secs
-Total CPU time to Xst completion: 0.85 secs
+Total CPU time to Xst completion: 1.11 secs
  
 --> 
 
 
-Total memory usage is 482724 kilobytes
+Total memory usage is 483556 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    2 (   0 filtered)
